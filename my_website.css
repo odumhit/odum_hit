@@ -1,0 +1,24 @@
+.columnleft {
+    float: left;
+    width: 50%;
+}
+
+.columnright {
+    float: right;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body  {
+    background-image: url("backgroundimage.jpg");
+    background-color: blue;
+}
+
+
